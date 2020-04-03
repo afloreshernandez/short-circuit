@@ -1,0 +1,23 @@
+<script>
+{/* Prompt the user for a username and store the response in a variable.
+Prompt the user for a password and store this data.
+If the username equals "admin" and the password equals "1234", then alert "Welcome to the admin page".
+If the username equals "average joe" and the password equals "jsRocks", then alert "Welcome to the user landing page".
+Otherwise alert "Invalid username and password, refresh the page to try again" */}
+
+const username = prompt("Please enter your username: ");
+const password = prompt("Please enter your password: ");
+
+if(username === "admin" && password === "1234"){
+    alert('Welcome to the admin page')
+}
+
+else if (username === "average joe" && password === "jsRocks"){
+    alert('Welcome to the user landing page.')
+}
+
+else{
+    alert('Invalid username and password, refresh the page to try again.')
+}
+
+</script>
